@@ -7,4 +7,6 @@ const versionNumber = /v?[0-9]+\.[0-9]+\.[0-9]+/
 const led = /led/i
 const regexHighlight = /^\/([^\/\\]|\\\/|\\\\)*\/[gmiyu]*/
 const amperes = /[n\u03bcmMG]?A/
+const aButNotAt = /[Aa](?!t[ \.])[^ ]*/g
+const discordToken = /[A-Za-z0-9]{24}\.[A-Za-z0-9]{3}\_[A-Za-z0-9]{2}\.[A-Za-z0-9]{19}\_[A-Za-z0-9]{7}/g
 
